@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#7f0026">
+  <meta name="description" content="Traditional Coimbatore sweets and savouries, handcrafted with love by KrishnaKam.">
+  <title>KrishnaKam — Made with Tradition, Served with Love</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="KrishnaKam home">
+      <span class="brand-mark" aria-hidden="true">✺</span>
+      <span><strong>KrishnaKam</strong><small>✦ tradition • taste • trust ✦</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">☰</button>
+    <nav id="nav">
+      <a href="#home">Home</a><a href="#story">Our Story</a><a href="#menu">Menu</a><a href="#contact">Contact</a>
+      <a class="nav-order" href="#menu">Order Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero section" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">✦ An authentic tradition for a couple of decades. ✦</p>
+        <h1>Made with Tradition,<br>Served with Love</h1>
+        <p class="hero-intro">Authentic Coimbatore sweets &amp; savouries crafted in-house using 100% pure Ganapathi Peanut Oil.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">☏ Explore &amp; Order</a>
+          <a class="button button-outline" href="#story">Our Story</a>
+        </div>
+        <p class="small-note">Freshly prepared • Traditional recipes • Made with care</p>
+      </div>
+      <div class="hero-art">
+        <div class="hero-image-frame">
+          <div class="hero-placeholder"><span>கிருஷ்ணகாம்</span><strong>A taste of tradition</strong><small>Add your original hero photo here</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="story section" id="story">
+      <div class="story-art"><div class="diya">🪔</div><p>Rooted in tradition<br><strong>Made with love</strong></p></div>
+      <div class="story-copy">
+        <p class="eyebrow">✦ Our Heritage ✦</p>
+        <h2>A Family Legacy of Pure Flavours</h2>
+        <p>What began as a cherished family tradition in the heart of Coimbatore is a legacy of taste and trust. Our recipes are inspired by family kitchens and passed down with patience, love, and care.</p>
+        <p>Every sweet and savoury is prepared in small batches with a commitment to quality. Replace this text with your exact family story and verified ingredient claims.</p>
+        <ul class="promise-list"><li>✦ In-house traditional recipes</li><li>✦ Made fresh with care</li><li>✦ A taste of Kovai</li><li>✦ Made for celebrations</li></ul>
+      </div>
+    </section>
+
+    <section class="menu-section section" id="menu">
+      <div class="section-heading">
+        <p class="eyebrow">✦ Handcrafted with Love ✦</p>
+        <h2>Our Handcrafted Delicacies</h2>
+        <p>Every item made fresh, in-house, with pure ingredients and generations of love.</p>
+      </div>
+      <div class="tabs" role="tablist" aria-label="Product categories">
+        <button class="tab active" data-category="sweets" role="tab" aria-selected="true">Traditional Sweets</button>
+        <button class="tab" data-category="snacks" role="tab" aria-selected="false">Crispy Snacks &amp; Savouries</button>
+        <button class="tab" data-category="festival" role="tab" aria-selected="false">Festival Specials</button>
+      </div>
+      <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      <div class="cart-panel" id="cartPanel">
+        <div><strong>Your order</strong><p id="cartSummary">Your cart is empty.</p></div>
+        <div class="cart-actions"><strong id="cartTotal">₹0</strong><button class="button button-primary" id="checkoutButton" disabled>Order via WhatsApp</button><button class="text-button" id="clearCart">Clear</button></div>
+      </div>
+      <p class="disclaimer">Prices and product descriptions shown here are sample content. Please confirm them before accepting orders.</p>
+    </section>
+
+    <section class="promise">
+      <p class="eyebrow">✦ Our Commitment ✦</p><h2>Our Promise to You</h2>
+      <div class="promise-cards">
+        <article><span>◉</span><h3>Thoughtful Ingredients</h3><p>Quality ingredients chosen with care.</p></article>
+        <article><span>❧</span><h3>Traditional Recipes</h3><p>Made with respect for familiar flavours.</p></article>
+        <article><span>⌂</span><h3>Prepared with Care</h3><p>Small-batch preparation and attention to detail.</p></article>
+        <article><span>♡</span><h3>Loved by Generations</h3><p>Sharing sweets and savouries for life's moments.</p></article>
+      </div>
+    </section>
+
+    <section class="reviews section">
+      <div class="section-heading"><p class="eyebrow">✦ Customer Love ✦</p><h2>What Our Customers Say</h2><p>Customer feedback helps us keep improving.</p></div>
+      <p class="private-note">Reviews will be collected privately and reviewed by the KrishnaKam team before any public display.</p>
+    </section>
+
+    <section class="cta" id="contact"><h2>Ready to Taste Tradition?</h2><p>Order fresh, handcrafted sweets and savouries directly with us.</p><a class="button button-primary" id="contactWhatsApp" href="#">☏ Chat on WhatsApp</a></section>
+  </main>
+
+  <footer class="site-footer">
+    <div><a class="brand footer-brand" href="#home"><span class="brand-mark">✺</span><span><strong>KrishnaKam</strong><small>✦ tradition • taste • trust ✦</small></span></a><p>Authentic Coimbatore sweets &amp; savouries, made with care.</p></div>
+    <div><h3>Quick Links</h3><a href="#home">Home</a><a href="#story">Our Story</a><a href="#menu">Menu</a><a href="#contact">Contact</a></div>
+    <div><h3>Visit Us</h3><p id="footerAddress">Coimbatore, Tamil Nadu</p><p id="footerPhone">Phone: please update configuration</p><p>Hours: update your opening hours</p></div>
+  </footer>
+  <div class="cookie-notice" id="cookieNotice"><div><strong>Cookie Consent</strong><p>This starter uses only essential browser storage for your cart. Add a privacy notice if you add analytics or advertising tools.</p></div><button class="button button-outline" id="dismissCookie">OK</button></div>
+  <script src="/config.js"></script><script src="/app.js"></script>
+</body>
+</html>
